@@ -1,2 +1,2 @@
-# programmers_c-
+# programmers_cpp
 programmers' coding test solutions
