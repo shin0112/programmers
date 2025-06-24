@@ -9,6 +9,8 @@ class Solution {
         answer = Integer.valueOf(v1) > Integer.valueOf(v2)
                 ? Integer.valueOf(v1)
                 : Integer.valueOf(v2);
+
+        // Math.max(Integer.valueOf(v1), Integer.valueOf(v2));
         return answer;
     }
 }
