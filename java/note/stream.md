@@ -28,6 +28,12 @@
 - 최종 연산을 수행해 데이터 컬렉션 또는 하나의 값으로 결과값 반환
 - 최종적으로 **1번**만 수행
 
+## 📋 주요 메서드 요약
+
+| Method                          | Description                               | Return Type |
+| ------------------------------- | ----------------------------------------- | ----------- |
+| `IntStream.range(int a, int b)` | a부터 b-1까지의 int collection을 stream화 | `IntStream` |
+
 ## 참고자료
 
 - [Java Stream이란 특징부터 사용하는 이유까지 모두 알려드립니다.](https://www.elancer.co.kr/blog/detail/255)
