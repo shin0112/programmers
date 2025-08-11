@@ -30,10 +30,11 @@
 
 ## 📋 주요 메서드 요약
 
-| Method                          | Description                               | Return Type |
-| ------------------------------- | ----------------------------------------- | ----------- |
-| `IntStream.range(int a, int b)` | a부터 b-1까지의 int collection을 stream화 | `IntStream` |
-| `Stream.reduce()`               | Stream 요소들을 하나의 데이터로 만듦      | Optional<T> |
+| Method                                | Description                               | Return Type |
+| ------------------------------------- | ----------------------------------------- | ----------- |
+| `IntStream.range(int a, int b)`       | a부터 b-1까지의 int collection을 stream화 | `IntStream` |
+| `IntStream.rangeClosed(int a, int b)` | a부터 b까지의 int collection을 stream화   | `IntStream` |
+| `Stream.reduce()`                     | Stream 요소들을 하나의 데이터로 만듦      | Optional<T> |
 
 ## 예시
 
