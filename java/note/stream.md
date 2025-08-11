@@ -33,6 +33,14 @@
 | Method                          | Description                               | Return Type |
 | ------------------------------- | ----------------------------------------- | ----------- |
 | `IntStream.range(int a, int b)` | a부터 b-1까지의 int collection을 stream화 | `IntStream` |
+| `Stream.reduce()`               | Stream 요소들을 하나의 데이터로 만듦      | Optional<T> |
+
+## 예시
+
+```java
+Stream<Integer> numbers = Stream.of(1, 2, 3, 4, 5);
+Optional<Integer> sum = numbers.reduce((x, y) -> x + y); // 15
+```
 
 ## 참고자료
 
