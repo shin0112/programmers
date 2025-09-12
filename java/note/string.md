@@ -31,3 +31,7 @@ int len = s.length();  // 3
 String arr[] = ["a", "b"];
 String.join("", arr); // ab
 ```
+
+### StringBuilder
+
+- string 만들어주는 builder!!
